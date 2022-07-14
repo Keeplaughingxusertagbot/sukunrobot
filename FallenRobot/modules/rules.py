@@ -122,7 +122,7 @@ def set_rules(update: Update, context: CallbackContext):
         )
 
         sql.set_rules(chat_id, markdown_rules)
-        update.effective_message.reply_text("Successfully set rules for this group.")
+        update.effective_message.reply_text("Successfully set rules for this group by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.")
     else:
         update.effective_message.reply_text("There's... no rules?")
 
@@ -154,9 +154,9 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- ‣ `/rules`*:* get the rules for this chat.
+ ‣ `/rules`*:* get the rules for this chat from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.
  ‣ `/rules here`*:* get the rules for this chat but send it in the chat.
-*Admins only:*
+*Admins only from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*
  ‣ `/setrules <your rules here>`*:* set the rules for this chat.
  ‣ `/clearrules`*:* clear the rules for this chat.
 """
