@@ -56,7 +56,7 @@ def kukirm(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ ᴄʜᴀᴛʙᴏᴛ ᴅɪsᴀʙʟᴇᴅ ʙʏ {}.".format(
+                "「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 ᴄʜᴀᴛʙᴏᴛ ᴅɪsᴀʙʟᴇᴅ ʙʏ {}.".format(
                     mention_html(user.id, user.first_name)
                 ),
                 parse_mode=ParseMode.HTML,
@@ -85,7 +85,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ ᴄʜᴀᴛʙᴏᴛ ᴇɴᴀʙʟᴇᴅ ʙʏ {}.".format(
+                "「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 ᴄʜᴀᴛʙᴏᴛ ᴇɴᴀʙʟᴇᴅ ʙʏ {}.".format(
                     mention_html(user.id, user.first_name)
                 ),
                 parse_mode=ParseMode.HTML,
@@ -163,7 +163,7 @@ def list_all_chats(update: Update, context: CallbackContext):
 
 __help__ = """
 *Admins only Commands*:
-  »  /chatbot *:* Shows chatbot control panel
+  »  /chatbot *:* Shows chatbot control panel from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
 
 """
 
