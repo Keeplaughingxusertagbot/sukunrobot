@@ -31,7 +31,7 @@ dispatcher.add_handler(DARE_HANDLER)
 
 __help__ = """
 *Truth & Dare*
- ❍ /truth *:* Sends a random truth string.
- ❍ /dare *:* Sends a random dare string.
+ ❍ /truth *:* Sends a random truth string from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
+ ❍ /dare *:* Sends a random dare string from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
 """
 __mod_name__ = "Tʀᴜᴛʜ-Dᴀʀᴇ"
