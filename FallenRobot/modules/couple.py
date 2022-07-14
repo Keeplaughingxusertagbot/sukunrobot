@@ -52,7 +52,7 @@ async def couple(_, message):
 
             couple_selection_message = f"""**Couple of the day:**
 {c1_mention} + {c2_mention} = 😘
-__New couple of the day may be chosen at 12AM {tomorrow}__"""
+__New couple of the day may be chosen by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 at 12AM {tomorrow}__"""
             await pbot.send_message(message.chat.id, text=couple_selection_message)
             couple = {"c1_id": c1_id, "c2_id": c2_id}
             await save_couple(chat_id, today, couple)
@@ -72,7 +72,7 @@ __New couple of the day may be chosen at 12AM {tomorrow}__"""
 
 
 __help__ = """
-Choose couples in your chat
+Choose couples in your chat by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
 
  ❍ /couple *:* Choose 2 users and send their name as couples in your chat.
 """
