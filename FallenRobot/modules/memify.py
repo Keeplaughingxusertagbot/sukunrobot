@@ -38,7 +38,7 @@ async def handler(event):
 
     file = await bot.download_media(reply_message)
 
-    msg = await event.reply("```Memifying this image! ✊🏻 ```")
+    msg = await event.reply("```Memifying this image from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」! ✊🏻 ```")
 
     if "AnonymousBoy1025" in Credit:
         pass
