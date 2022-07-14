@@ -71,7 +71,7 @@ def getsticker(update: Update, context: CallbackContext):
         os.remove("sticker.png")
     else:
         update.effective_message.reply_text(
-            "Please reply to a sticker for me to upload its PNG."
+            "Please reply to a sticker for 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」to upload its PNG."
         )
 
 
@@ -117,7 +117,7 @@ def kang(update: Update, context: CallbackContext):
         elif msg.reply_to_message.document:
             file_id = msg.reply_to_message.document.file_id
         else:
-            msg.reply_text("Yea, I can't kang that.")
+            msg.reply_text("Yea, 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 can't kang that.")
 
         kang_file = context.bot.get_file(file_id)
         if not is_animated:
@@ -168,7 +168,7 @@ def kang(update: Update, context: CallbackContext):
                 )
 
             except OSError as e:
-                msg.reply_text("I can only kang images m8.")
+                msg.reply_text("「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 can only kang images m8.")
                 print(e)
                 return
 
@@ -450,10 +450,10 @@ def makepack_internal(
 
 
 __help__ = """
- ❍ /stickerid*:* reply to a sticker to me to tell you its file ID.
- ❍ /getsticker*:* reply to a sticker to me to upload its raw PNG file.
- ❍ /kang*:* reply to a sticker to add it to your pack.
- ❍ /stickers*:* Find stickers for given term on combot sticker catalogue
+ ❍ /stickerid*:* reply to a sticker to me to tell you its file ID from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.
+ ❍ /getsticker*:* reply to a sticker to me to upload its raw PNG file from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.
+ ❍ /kang*:* reply to a sticker to add it to your pack 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.
+ ❍ /stickers*:* Find stickers for given term on combot sticker catalogue from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.
 """
 
 __mod_name__ = "Sᴛɪᴄᴋᴇʀ"
