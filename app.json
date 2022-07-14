@@ -165,7 +165,7 @@
       "START_IMG": {
       "description": "Telegraph link of the image which will be shown at start command.",
          "required": false,
-         "value": "https://telegra.ph/file/3bf4a1422aad723bc089c.jpg"
+         "value": "https://telegra.ph/file/3c29649bc565f0049e7b8.jpg"
    },      
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
