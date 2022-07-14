@@ -28,13 +28,13 @@ def allow_connections(update, context) -> str:
                 sql.set_allow_connect_to_chat(chat.id, False)
                 send_message(
                     update.effective_message,
-                    "Connection has been disabled for this chat",
+                    "Connection has been disabled for this chat by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」",
                 )
             elif var == "yes":
                 sql.set_allow_connect_to_chat(chat.id, True)
                 send_message(
                     update.effective_message,
-                    "Connection has been enabled for this chat",
+                    "Connection has been enabled for this chat by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」",
                 )
             else:
                 send_message(
@@ -391,7 +391,7 @@ __mod_name__ = "Cᴏɴɴᴇᴄᴛ"
 __help__ = """
 Sometimes, you just want to add some notes and filters to a group chat, but you don't want everyone to see; This is where connections come in...
 This allows you to connect to a chat's database, and add things to it without the commands appearing in chat! For obvious reasons, you need to be an admin to add things; but any member in the group can view your data.
-
+「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 
  ❍ /connect: Connects to chat (Can be done in a group by /connect or /connect <chat id> in PM)
  ❍ /connection: List connected chats
  ❍ /disconnect: Disconnect from a chat
