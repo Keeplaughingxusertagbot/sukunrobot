@@ -113,7 +113,7 @@ def log(update: Update, context: CallbackContext):
 
 
 __help__ = """
-*MATHS*
+*MATHS from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」*
 Solves complex math problems using https://newton.now.sh
 ❍ /math*:* Math `/math 2^2+2(2)`
 ❍ /factor*:* Factor `/factor x^2 + 2x`
