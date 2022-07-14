@@ -476,7 +476,7 @@ def lined(update, context):
 
 __help__ = """
 
-*ᴄᴏɴᴠᴇʀᴛs sɪᴍᴩʟᴇ ᴛᴇxᴛ ᴛᴏ ʙᴇᴀᴜᴛɪғᴜʟ ᴛᴇxᴛ ʙʏ ᴄʜᴀɴɢɪɴɢ ɪᴛ's ғᴏɴᴛ*
+*ᴄᴏɴᴠᴇʀᴛs sɪᴍᴩʟᴇ ᴛᴇxᴛ ᴛᴏ ʙᴇᴀᴜᴛɪғᴜʟ ᴛᴇxᴛ ʙʏ ᴄʜᴀɴɢɪɴɢ ɪᴛ's ғᴏɴᴛ from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」*
 
  ❍ /weebify *:* Change the text into weeb text.
  ❍ /bubble *:* Change the text into bubble text.
