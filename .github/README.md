@@ -19,7 +19,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [「 sᴜᴋᴜɴ �
 <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://github.com/keeplaughingxusertagbot/sukunrobot"> <img src="https://img.shields.io/github/repo-size/keeplaughingxusertagbot/sukunrobot?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/keeplaughingxusertagbot/sukunrobot/commits/keeplaughingxusertagbot"> <img src="https://img.shields.io/github/last-commit/AnonymousR1025/FallenRobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/keeplaughingxusertagbot/sukunrobot/commits/keeplaughingxusertagbot"> <img src="https://img.shields.io/github/last-commit/keeplaughingxusertagbot/sukunrobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 </p>
 
 ━━━━━━━━━━━━━━━━━━━━
