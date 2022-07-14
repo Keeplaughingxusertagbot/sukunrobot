@@ -975,11 +975,11 @@ def button(update: Update, context: CallbackContext) -> str:
 
 
 __help__ = """
-*User Commands*:
+*User Commands in 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」*:
 » /admins*:* list of admins in the chat
 » /pinned*:* to get the current pinned message.
 
-*The Following Commands are Admins only:* 
+*The Following Commands are Admins only in 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:* 
 » /pin*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users
 » /unpin*:* unpins the currently pinned message
 » /invitelink*:* gets invitelink
