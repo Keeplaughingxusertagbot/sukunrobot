@@ -101,13 +101,13 @@ def check_flood(update, context) -> str:
 
     except BadRequest:
         msg.reply_text(
-            "I can't restrict people here, give me permissions first! Until then, I'll disable anti-flood."
+            "I can't restrict people here, give me permissions first! Until then, I'll disable anti-flood by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」."
         )
         sql.set_flood(chat.id, 0)
         return (
             "<b>{}:</b>"
             "\n#INFO"
-            "\nDon't have enough permission to restrict users so automatically disabled anti-flood".format(
+            "\nDon't have enough permission to restrict users so automatically disabled anti-flood by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.".format(
                 chat.title
             )
         )
@@ -172,7 +172,7 @@ def set_flood(update, context) -> str:
             sql.set_flood(chat_id, 0)
             if conn:
                 text = message.reply_text(
-                    "Antiflood has been disabled in {}.".format(chat_name)
+                    "「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」Antiflood has been disabled in {}.".format(chat_name)
                 )
             else:
                 text = message.reply_text("Antiflood has been disabled.")
@@ -183,7 +183,7 @@ def set_flood(update, context) -> str:
                 sql.set_flood(chat_id, 0)
                 if conn:
                     text = message.reply_text(
-                        "Antiflood has been disabled in {}.".format(chat_name)
+                        "「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」Antiflood has been disabled in {}.".format(chat_name)
                     )
                 else:
                     text = message.reply_text("Antiflood has been disabled.")
@@ -200,7 +200,7 @@ def set_flood(update, context) -> str:
             elif amount <= 3:
                 send_message(
                     update.effective_message,
-                    "Antiflood must be either 0 (disabled) or number greater than 3!",
+                    "「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 Antiflood must be either 0 (disabled) or number greater than 3!",
                 )
                 return ""
 
@@ -208,13 +208,13 @@ def set_flood(update, context) -> str:
                 sql.set_flood(chat_id, amount)
                 if conn:
                     text = message.reply_text(
-                        "Anti-flood has been set to {} in chat: {}".format(
+                        "「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」Anti-flood has been set to {} in chat: {}".format(
                             amount, chat_name
                         )
                     )
                 else:
                     text = message.reply_text(
-                        "Successfully updated anti-flood limit to {}!".format(amount)
+                        "Successfully updated 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 anti-flood limit to {}!".format(amount)
                     )
                 return (
                     "<b>{}:</b>"
@@ -402,11 +402,11 @@ def __chat_settings__(chat_id, user_id):
 
 __help__ = """
 *Antiflood* allows you to take action on users that send more than x messages in a row. Exceeding the set flood \
-will result in restricting that user.
+will result in restricting that user.by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
  This will mute users if they send more than 10 messages in a row, bots are ignored.
 
  ❍ /flood*:* Get the current flood control setting
-• *Admins only:*
+• *Admins only from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*
  ❍ /setflood <int/'no'/'off'>*:* enables or disables flood control
  *Example:* `/setflood 10`
  ❍ /setfloodmode <ban/kick/mute/tban/tmute> <value>*:* Action to perform when user have exceeded flood limit. ban/kick/mute/tmute/tban
