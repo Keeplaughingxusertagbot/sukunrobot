@@ -934,11 +934,11 @@ def cleanservice(update: Update, context: CallbackContext) -> str:
         curr = sql.clean_service(chat.id)
         if curr:
             update.effective_message.reply_text(
-                "Welcome clean service is : <code>on</code>", parse_mode=ParseMode.HTML
+                "Welcome clean service of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 is : <code>on</code>", parse_mode=ParseMode.HTML
             )
         else:
             update.effective_message.reply_text(
-                "Welcome clean service is : <code>off</code>", parse_mode=ParseMode.HTML
+                "Welcome clean service of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 is : <code>off</code>", parse_mode=ParseMode.HTML
             )
 
 
@@ -1083,8 +1083,8 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
-*Admins only:*
- ❍ /welcome <on/off>*:* enable/disable welcome messages.
+*Admins only of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*
+ ❍ /welcome <on/off>*:* enable/disable welcome messages from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
  ❍ /welcome*:* shows current welcome settings.
  ❍ /welcome noformat*:* shows current welcome settings, without the formatting - useful to recycle your welcome messages!
  ❍ /goodbye*:* same usage and args as `/welcome`.
