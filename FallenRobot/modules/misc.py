@@ -28,7 +28,7 @@ If you want multiple buttons on the same line, use :same, as such:
 [two](buttonurl://google.com:same)</code>
 This will create two buttons on a single line, instead of one button per line.
 
-Keep in mind that your message <b>MUST</b> contain some text other than just a button!
+Keep in mind that your message <b>MUST</b> contain some text other than just a button! from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.
 """
 
 
@@ -82,7 +82,7 @@ def markdown_help(update: Update, context: CallbackContext):
 
 
 __help__ = """
-*Available commands:*
+*Available commands for 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 :*
 *Markdown:*
  ❍ /markdownhelp*:* quick summary of how markdown works in telegram - can only be called in private chats
 *React:*
