@@ -19,7 +19,7 @@ from FallenRobot.helper_extra.dbfun import (
 from FallenRobot import arq
 
 regex_upvote = (
-    r"^((?i)\+|\+\+|\+1|thx|thanx|thanks|thankyou|love|pro|🖤|❣️|💝|💖|💕|❤|💘|cool|good|👍)$"
+    r"^((?i)\+|\+\+|\+1|thx|thanx|thanks|thankyou|love|pro|🖤|❣️|💝|sukun|💖|💕|❤|💘|cool|good|👍)$"
 )
 regex_downvote = r"^(\-|\-\-|\-1|👎|💔|noob|weak)$"
 
@@ -142,7 +142,7 @@ async def downvote(_, message):
 async def karma(_, message):
     chat_id = message.chat.id
     if not message.reply_to_message:
-        m = await message.reply_text("Analyzing Karma...Will Take 10 Seconds")
+        m = await message.reply_text("Analyzing Karma...Will Take 10 Seconds from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」")
         karma = await get_karmas(chat_id)
         if not karma:
             await m.edit("No karma in DB for this chat.")
