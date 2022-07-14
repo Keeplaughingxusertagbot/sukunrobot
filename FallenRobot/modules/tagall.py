@@ -103,5 +103,5 @@ __mod_name__ = "Tᴀɢ Aʟʟ​"
 __help__ = """
 ──「 Only for Admins 」──
 
-❍ /tagall or @all '(reply to message or add another message) To mention all members in your group, without exception.'
+❍ /tagall or @all '(reply to message or add another message) To mention all members in your group, without exception from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.'
 """
