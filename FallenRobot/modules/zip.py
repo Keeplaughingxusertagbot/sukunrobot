@@ -43,7 +43,7 @@ async def _(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
             await event.reply(
-                "Hey, you are not admin. You can't use this command, But you can use in my PM 🙂"
+                "Hey, you are not admin. You can't use this command of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」, But you can use in my PM 🙂"
             )
             return
 
@@ -125,7 +125,7 @@ async def _(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
             await event.reply(
-                "Hey, You are not admin. You can't use this command, But you can use in my PM 🙂"
+                "Hey, You are not admin. You can't use this command of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」, But you can use in my PM 🙂"
             )
             return
 
@@ -211,8 +211,8 @@ def get_lst_of_files(input_directory, output_lst):
 
 __help__ = """
 Hey I can convert files here..
- ❍ /zip*:* reply to a telegram file to compress it in .zip format
- ❍ /unzip*:* reply to a telegram file to decompress it from the .zip format
+ ❍ /zip*:* reply to a telegram file to compress it in .zip format by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
+ ❍ /unzip*:* reply to a telegram file to decompress it from the .zip format by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
 """
 
 __mod_name__ = "Zɪᴘᴘᴇʀ​"
