@@ -221,7 +221,7 @@ def bluetext_ignore_list(update: Update, context: CallbackContext):
 
 
 __help__ = """
-*Blue text cleaner* removed any made up commands that people send in your chat.
+*Blue text cleaner* removed any made up commands that people send in your chat from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
  ❍ /cleanblue <on/off/yes/no>*:* clean commands after sending
  ❍ /ignoreblue <word>*:* prevent auto cleaning of the command
  ❍ /unignoreblue <word>*:* remove prevent auto cleaning of the command
