@@ -89,7 +89,7 @@ def mute(update: Update, context: CallbackContext) -> str:
         return log
 
     else:
-        message.reply_text("This user is already muted!")
+        message.reply_text("This user is already muted by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」!")
 
     return ""
 
@@ -121,7 +121,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
             and member.can_send_other_messages
             and member.can_add_web_page_previews
         ):
-            message.reply_text("This user already has the right to speak.")
+            message.reply_text("This user already has the right to speak by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.")
         else:
             chat_permissions = ChatPermissions(
                 can_send_messages=True,
@@ -240,7 +240,7 @@ def temp_mute(update: Update, context: CallbackContext) -> str:
 
 
 __help__ = """
-*Admins only:*
+*Admins only from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*
  ❍ /mute <userhandle>*:* silences a user. Can also be used as a reply, muting the replied to user.
  ❍ /tmute <userhandle> x(m/h/d)*:* mutes a user for x time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
  ❍ /unmute <userhandle>*:* unmutes a user. Can also be used as a reply, muting the replied to user.
