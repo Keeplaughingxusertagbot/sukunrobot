@@ -1,11 +1,11 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「 ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ 」──
+    ──「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」──
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/018fbdef43c96ca2092fc.jpg">
+  <img src="https://telegra.ph/file/3bf4a1422aad723bc089c.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ](https://t.me/FallenXRobot)**_
