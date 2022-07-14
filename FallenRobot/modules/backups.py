@@ -149,7 +149,7 @@ def export_data(update, context):
                 "%H:%M:%S %d/%m/%Y", time.localtime(checkchat.get("value"))
             )
             update.effective_message.reply_text(
-                "You can only backup once a day!\nYou can backup again in about `{}`".format(
+                "You can only backup once a day!\nYou can backup of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 again in about `{}`".format(
                     timeformatt
                 ),
                 parse_mode=ParseMode.MARKDOWN,
@@ -342,7 +342,7 @@ def export_data(update, context):
     context.bot.sendDocument(
         current_chat_id,
         document=open("FallenRobot{}.backup".format(chat_id), "rb"),
-        caption="📤*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `FallenRobot-Backup` was specially made for notes 📚.".format(
+        caption="📤*Successfully Exported backup to 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `FallenRobot-Backup` was specially made for notes 📚.".format(
             chat.title, chat_id, tgl
         ),
         timeout=360,
@@ -370,7 +370,7 @@ def get_chat(chat_id, chat_data):
 __mod_name__ = "Bᴀᴄᴋᴜᴘ"
 
 __help__ = """
-*Only for group owner:*
+*Only for group owner by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*
 
  ❍ /import: Reply to the backup file for the butler / emilia group to import as much as possible, making transfers very easy! \
  Note that files / photos cannot be imported due to telegram restrictions.
