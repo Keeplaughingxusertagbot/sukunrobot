@@ -90,11 +90,11 @@ async def _(event):
 
 
 __help__ = """
-I can find weather of all cities
+「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 can find weather of all cities
 
- ❍ /weather <city>*:* Get weather info in a particular place.
+ ❍ /weather <city>*:* Get weather info in a particular place from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
  ❍ /wttr <city>*:* Advanced weather module, usage same as /weather
- ❍ /wttr moon*:* Get the current status of moon
+ ❍ /wttr moon*:* Get the current status of moon from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
 """
 
 __mod_name__ = "Wᴇᴀᴛʜᴇʀ"
