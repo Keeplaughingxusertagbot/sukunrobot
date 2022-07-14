@@ -94,13 +94,13 @@ buttons = [
         InlineKeyboardButton(text="💫 ʜᴇʟᴘ & ᴄᴍᴅs​​​ 💫", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="❤️ ᴀʙᴏᴜᴛ ᴍᴇ​​ ❤️", callback_data="fallen_"),
-        InlineKeyboardButton(text="😘 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 😘", callback_data="source_"),
+        InlineKeyboardButton(text="❤️ ᴀʙᴏᴜᴛ sᴜᴋᴜɴ​​ ❤️", callback_data="fallen_"),
+        InlineKeyboardButton(text="😘 ᴏᴡɴᴇʀ/ᴍᴇʟɪ sᴜᴋᴜɴ😘", callback_data="source_"),
     ],
     [
-        InlineKeyboardButton(text="🤗 sᴜᴋᴏᴏɴ ᴋɪ ᴛᴀᴀʟᴀsʜ 🤗", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🤗 sᴜᴋᴏᴏɴ sᴜᴘᴘᴏʀᴛs🤗", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(
-            text="🙈 ᴍᴇʟɪ sᴜᴋᴜɴ 🙈", url=f"https://t.me/{OWNER_USERNAME}"
+            text="🙈 ᴍᴀɴᴀɢᴇʀ 🙈", url=f"https://t.me/{OWNER_USERNAME}"
         ),
     ],
 ]
@@ -371,7 +371,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🤗 sᴜᴋᴜɴ ᴋɪ ᴛᴀᴀʟᴀsʜ 🤗", callback_data="fallen_support"
+                            text="🤗 sᴜᴋᴜɴ sᴜᴘᴘᴏʀᴛs 🤗", callback_data="fallen_support"
                         ),
                         InlineKeyboardButton(
                             text="💫 ᴄᴏᴍᴍᴀɴᴅs 💫", callback_data="help_back"
@@ -379,10 +379,10 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🙈 ᴍᴇʟɪ sᴜᴋᴜɴ 🙈", url=f"https://t.me/{OWNER_USERNAME}"
+                            text="🙈 ᴍᴀɴᴀɢᴇʀ 🙈", url=f"https://t.me/{OWNER_USERNAME}"
                         ),
                         InlineKeyboardButton(
-                            text="💔 sᴏᴜʀᴄᴇ 💔",
+                            text="💔 ᴏᴡɴᴇʀ 💔",
                             url="https://t.me/Bhumi_ha_r",
                         ),
                     ],
@@ -401,10 +401,10 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🤗 sᴜᴋᴏᴏɴ ᴋɪ ᴛᴀᴀʟᴀsʜ 🤗", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="🤗 sᴜᴋᴏᴏɴ sᴜᴘᴘᴏʀᴛs 🤗", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="sᴜᴋᴏᴏɴ ᴋɪ ᴛᴀᴀʟᴀsʜ", url=f"https://t.me/sukoon_kii_talash"
                         ),
                     ],
                     [
@@ -436,7 +436,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://t.me/mujhse_dosti_karlo)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [🇰ᴇᴇᴘ 🇱ᴀᴜɢʜɪɴɢ 『 🇮🇳 』](https://t.me/mujhse_dosti_karlo) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [sᴜᴋᴜɴ](https://t.me/Bhumi_ha_r)""",
+            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [sᴜᴋᴜɴ sᴜᴘᴘᴏʀᴛs](https://t.me/sukunsupports)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [🇰ᴇᴇᴘ 🇱ᴀᴜɢʜɪɴɢ 『 🇮🇳 』](https://t.me/mujhse_dosti_karlo) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [sᴜᴋᴜɴ](https://t.me/Bhumi_ha_r)""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -749,7 +749,7 @@ def main():
 ㅤ๏ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
 ━━━━━━━━━━━━━
 
-ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [sᴜᴋᴜɴ](https://t.me/{OWNER_USERNAME})""",
+ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [sᴜᴋᴜɴ](https://t.me/Bhumi_ha_r)""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
