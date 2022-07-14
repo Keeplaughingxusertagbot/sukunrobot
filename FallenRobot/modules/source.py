@@ -16,13 +16,13 @@ async def repo(client, message):
         photo=ANON,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](tg://user?id=1356469075)
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [「 sᴜᴋᴜɴ 」](tg://user?id=1417375784)
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
 **» ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{z}`
 
-**ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
+**「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」 source is public but if you want then join support group @sukunsupports.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -32,7 +32,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• sᴏᴜʀᴄᴇ •",
-                        url="https://github.com/AnonymousR1025/FallenRobot",
+                        url="https://t.me/sukunsupports",
                     ),
                 ]
             ]
