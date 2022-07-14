@@ -382,7 +382,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="🙈 ᴍᴇʟɪ sᴜᴋᴜɴ 🙈", url=f"https://t.me/{OWNER_USERNAME}"
                         ),
                         InlineKeyboardButton(
-                            text="sᴏᴜʀᴄᴇ 💔",
+                            text="💔 sᴏᴜʀᴄᴇ 💔",
                             url="https://t.me/Bhumi_ha_r",
                         ),
                     ],
