@@ -1,7 +1,7 @@
 {
-      "name": "Fallen Robot",
-      "description": "Telegram Group Management Bot.",
-      "logo": "https://telegra.ph/file/72e135da30a1a349f2844.jpg",
+      "name": "「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」",
+      "description": "lovely Telegram Group Management Bot.",
+      "logo": "https://telegra.ph/file/3bf4a1422aad723bc089c.jpg",
       "keywords": [
          "telegram",
          "sexy",
@@ -9,7 +9,7 @@
          "manager",
          "Fallen"
       ],   
-   "repository": "https://github.com/AnonymousR1025/FallenRobot",
+   "repository": "https://github.com/keeplaughingxusertagbot/sukunxrobot",
    "addons": [
       {
          "options": {
@@ -42,7 +42,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1356469075"
+         "value": "1417375784"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -50,16 +50,16 @@
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
-        "required": false
+        "required": true
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "anonymous_was_bot"
+         "value": "Bhumi_ha_r"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
          "required": true,
-         "value": "DevilsHeavenMF"
+         "value": "sukoon_kii_talash"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -94,16 +94,16 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Fallen Support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1356469075"
+         "value": "1417375784 5102983667 1844390456"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
-         "value": "True"
+         "value": "1844390456 5102983667 1417375784"
       },
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": ""
+         "value": "5102983667 1417375784 1844390456"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
@@ -156,7 +156,7 @@
       "DONATION_LINK": {
          "description": "Link where you would like to receive donations. If you are a noob, better leave it linking to Anonymous",
          "required": false,
-         "value": "https://t.me/anonymous_was_bot"
+         "value": "https://t.me/mujhse_dosti_karlo"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -165,7 +165,7 @@
       "START_IMG": {
       "description": "Telegraph link of the image which will be shown at start command.",
          "required": false,
-         "value": ""
+         "value": "https://telegra.ph/file/3bf4a1422aad723bc089c.jpg"
    },      
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
