@@ -68,14 +68,14 @@ openhehe = ChatBannedRights(
 async def close_ws(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
-            await event.reply("🤦🏻‍♂️You are not admin so you can't use this command...")
+            await event.reply("🤦🏻‍♂️You are not admin so you can't use this command...of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」")
             return
 
     if not event.is_group:
         await event.reply("You Can Only Enable Night Mode in Groups.")
         return
     if is_nightmode_indb(str(event.chat_id)):
-        await event.reply("This Chat is Has Already Enabled Night Mode.")
+        await event.reply("This Chat is Has Already Enabled Night Mode using 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.")
         return
     add_nightmode(str(event.chat_id))
     await event.reply(
@@ -87,7 +87,7 @@ async def close_ws(event):
 async def disable_ws(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
-            await event.reply("🤦🏻‍♂️You are not admin so you can't use this command...")
+            await event.reply("🤦🏻‍♂️You are not admin so you can't use this command..of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」.")
             return
 
     if not event.is_group:
@@ -110,7 +110,7 @@ async def job_close():
         try:
             await tbot.send_message(
                 int(warner.chat_id),
-                "12:00 Am, Group Is Closing Till 6 Am. Night Mode Started ! \n**Powered By Fallen Robot**",
+                "12:00 Am, Group Is Closing Till 6 Am. Night Mode Started ! \n**Powered By 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」**",
             )
             await tbot(
                 functions.messages.EditChatDefaultBannedRightsRequest(
@@ -135,7 +135,7 @@ async def job_open():
         try:
             await tbot.send_message(
                 int(warner.chat_id),
-                "06:00 Am, Group Is Opening.\n**Powered By Fallen Robot**",
+                "06:00 Am, Group Is Opening.\n**Powered By 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」**",
             )
             await tbot(
                 functions.messages.EditChatDefaultBannedRightsRequest(
@@ -152,7 +152,7 @@ scheduler.add_job(job_open, trigger="cron", hour=6, minute=1)
 scheduler.start()
 
 __help__ = """
-*Admins Only*
+*Admins Only from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」*
 
  ❍ /nightmode*:* Adds Group to NightMode Chats
  ❍ /rmnight*:* Removes Group From NightMode Chats
