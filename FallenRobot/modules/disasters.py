@@ -622,7 +622,7 @@ Group admins/group owners do not need these commands.
  ❍ /dbcleanup*:* Removes deleted accs and groups from db
  ❍ /py*:* Runs python code
  
-*Global Bans:*
+*Global Bans by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*
  ❍ /gban <id> <reason>*:* Gbans the user, works by reply too
  ❍ /ungban*:* Ungbans the user, same usage as gban
  ❍ /gbanlist*:* Outputs a list of gbanned users
@@ -632,12 +632,12 @@ Group admins/group owners do not need these commands.
  ❍ /ungignoreblue*:* <word>*:* Remove said command from global cleaning list
 
 *Masha Core*
-*Owner only*
+*Owner only of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」*
  ❍ /send*:* <module name>*:* Send module
  ❍ /install*:* <reply to a .py>*:* Install module 
 
 *Heroku Settings*
-*Owner only*
+*Owner only of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」*
  ❍ /usage*:* Check your heroku dyno hours remaining.
  ❍ /see var <var>*:* Get your existing varibles, use it only on your private group!
  ❍ /set var <newvar> <vavariable>*:* Add new variable or update existing value variable.
