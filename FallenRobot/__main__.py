@@ -100,7 +100,7 @@ buttons = [
     [
         InlineKeyboardButton(text="🤗 sᴜᴋᴏᴏɴ ᴋɪ ᴛᴀᴀʟᴀsʜ 🤗", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(
-            text="🍑 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🍑", url=f"https://t.me/{OWNER_USERNAME}"
+            text="🙈 ᴍᴇʟɪ sᴜᴋᴜɴ 🙈", url=f"https://t.me/{OWNER_USERNAME}"
         ),
     ],
 ]
@@ -401,7 +401,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="🤗 sᴜᴋᴏᴏɴ ᴋɪ ᴛᴀᴀʟᴀsʜ 🤗", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
                             text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
@@ -409,10 +409,10 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/Bhumi_ha_r"
+                            text="🙈 ᴍᴇʟɪ sᴜᴋᴜɴ 🙈", url="https://t.me/Bhumi_ha_r"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ", url="https://github.com/AnonymousR1025"
+                            text="😺 ʙɪʟʟᴜ ғᴇᴇʟɪɴɢs 😺", url="https://t.me/billufeelings"
                         ),
                     ],
                     [
