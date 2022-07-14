@@ -16,7 +16,7 @@ def totranslate(update: Update, context: CallbackContext) -> None:
             "Reply to messages or write messages from other languages ​​for translating into the intended language\n\n"
             "Example: `/tr en-hi` to translate from English to Hindi\n"
             "Or use: `/tr en` for automatic detection and translating it into english.\n"
-            "Click here to see [List of available Language Codes](https://t.me/DevilsHeavenMF/148391).",
+            "Click here to see [List of available Language Codes](https://t.me/sukunxrobotlogs/6).",
             parse_mode="markdown",
             disable_web_page_preview=True,
         )
@@ -48,8 +48,8 @@ def totranslate(update: Update, context: CallbackContext) -> None:
 __help__ = """
  ❍ /tr or /tl (language code) as reply to a long message
 *Example:* 
- ❍ /tr en*:* translates something to english
- ❍ /tr hi-en*:* translates hindi to english
+ ❍ /tr en*:* translates something to english by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
+ ❍ /tr hi-en*:* translates hindi to english by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
 
 *Language Codes*
 `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
