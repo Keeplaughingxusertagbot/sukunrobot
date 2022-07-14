@@ -569,7 +569,7 @@ telegram world; the bot will automatically delete them!
 
  ❍ /locktypes*:* Lists all possible locktypes
  
-*Admins only:*
+*Admins only from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*
  ❍ /lock <type>*:* Lock items of a certain type (not available in private)
  ❍ /unlock <type>*:* Unlock items of a certain type (not available in private)
  ❍ /locks*:* The current list of locks in this chat.
