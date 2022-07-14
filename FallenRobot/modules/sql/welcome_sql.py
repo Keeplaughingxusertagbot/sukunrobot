@@ -6,11 +6,11 @@ from FallenRobot.modules.helper_funcs.msg_types import Types
 from FallenRobot.modules.sql import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
-DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_WELCOME = "Hello 🥺 baby ❤️ {first}, kaiche ho yaal ?"
+DEFAULT_GOODBYE = "noi na 🥺 kaha chale gye "
 
 DEFAULT_WELCOME_MESSAGES = [
-    "{first} is here!",
+    "{first} aa gye💗 !",
     "Ready player {first}",
     "Genos, {first} is here.",
     "A wild {first} appeared.",
