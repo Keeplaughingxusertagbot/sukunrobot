@@ -193,7 +193,7 @@ if is_module_loaded(FILENAME):
         return "No log channel is set for this group!"
 
     __help__ = """
-*Admins only:*
+*Admins only from 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*
  ❍ /logchannel*:* get log channel info
  ❍ /setlog*:* set the log channel.
  ❍ /unsetlog*:* unset the log channel.
