@@ -110,7 +110,7 @@ def ban(update: Update, context: CallbackContext) -> str:
 
         # bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
         reply = (
-            f"<code>❕</code><b>ʙᴀɴ ᴇᴠᴇɴᴛ</b>\n"
+            f"<code>❕</code><b>ʙᴀɴ ᴇᴠᴇɴᴛ ʙʏ 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」</b>\n"
             f"<code> </code><b>•  ʙᴀɴɴᴇᴅ ʙʏ:</b> {mention_html(user.id, user.first_name)}\n"
             f"<code> </code><b>•  ᴜsᴇʀ:</b> {mention_html(member.user.id, html.escape(member.user.first_name))}"
         )
@@ -401,9 +401,9 @@ def selfunban(context: CallbackContext, update: Update) -> str:
 
 
 __help__ = """
- ❍ /kickme*:* kicks the user who issued the command
+ ❍ /kickme*:* kicks the user who issued the command by 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」
 
-*Admins only:*
+*Admins only for 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*
  ❍ /ban <userhandle>*:* bans a user. (via handle, or reply)
  ❍ /sban <userhandle>*:* Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
  ❍ /tban <userhandle> x(m/h/d)*:* bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
