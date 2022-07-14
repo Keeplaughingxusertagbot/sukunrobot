@@ -33,7 +33,7 @@ def add_nsfw(update: Update, context: CallbackContext):
         )
         return message
     else:
-        msg.reply_text("ɴsғᴡ ᴍᴏᴅᴇ ᴀʟʀᴇᴀᴅʏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ !")
+        msg.reply_text("ɴsғᴡ ᴍᴏᴅᴇ ᴀʟʀᴇᴀᴅʏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ʙʏ 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」!")
         return ""
 
 
@@ -46,7 +46,7 @@ def rem_nsfw(update: Update, context: CallbackContext):
     user = update.effective_user
     is_nsfw = sql.is_nsfw(chat.id)
     if not is_nsfw:
-        msg.reply_text("ɴsғᴡ ᴍᴏᴅᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ")
+        msg.reply_text("ɴsғᴡ ᴍᴏᴅᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ʙʏ 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」")
         return ""
     else:
         sql.rem_nsfw(chat.id)
@@ -851,11 +851,11 @@ __handlers__ = [
 
 
 __help__ = """
-*NSFW:*
+*NSFW of 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*
 /addnsfw : Enable NSFW mode
 /rmnsfw : Disable NSFW mode
  
-*Available commands:*  
+*Available commands for 「 sᴜᴋᴜɴ ☯︎ ʀᴏʙᴏᴛ 」:*  
  - /neko: Sends Random SFW Neko source Images.
  - /feet: Sends Random Anime Feet Images.
  - /yuri: Sends Random Yuri source Images.
